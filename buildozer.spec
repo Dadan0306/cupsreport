@@ -3,8 +3,7 @@
 # (str) Title of your application
 title = Cups Report
 # (str) Package name
-package.name = cupsreport
-
+package.name = myapp
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
 
@@ -36,7 +35,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0,kivymd,pillow
+requirements = python3==3.7.6,hostpython==3.7.6,kivy,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -63,7 +62,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.7.6
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
